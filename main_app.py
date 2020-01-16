@@ -47,7 +47,7 @@ from wtforms.validators import InputRequired, Length
 #    self.age = age
 
 
-UPLOAD_FOLDER = '/Users/prakritiailavadi/PycharmProjects/test1/folder'
+UPLOAD_FOLDER = '...'
 ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif', 'csv'])
 
 app = Flask(__name__)
